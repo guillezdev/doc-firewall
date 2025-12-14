@@ -1,0 +1,47 @@
+% Plantilla de portada para tesis (portada similar a la imagen proporcionada)
+\documentclass[12pt,a4paper]{report}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{ragged2e}
+\geometry{left=3cm,right=3cm,top=3cm,bottom=3cm}
+\begin{document}
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{2cm}
+{\Large Universidad de Matanzas\par}
+{\large Facultad de Ciencias T\'ecnicas\par}
+{\large Departamento de Inform\'atica\par}
+
+\vspace{1.5cm}
+% Coloque el logo en el mismo directorio y llámelo "um_logo.png" (reemplazar si desea otro nombre)
+\includegraphics[width=6cm]{um_logo.png}\par
+
+\vspace{2cm}
+{\LARGE\bfseries Informe de la investigaci\'on\par}
+
+\vspace{1cm}
+\begin{minipage}{0.85\textwidth}
+\justifying
+\textbf{Tema:} Sistema inform\'atico para la gesti\'on de incidencias del firewall de la Universidad de Matanzas
+\end{minipage}\par
+
+\vspace{1.5cm}
+\begin{flushleft}
+\textbf{Autor:} Guillermo Gonz\'alez Calder\'in\par
+\textbf{Tutor:} M.Sc Luis Andres Valido Fajardo\par
+\textbf{Co-Tutor:} Ing. Manuel Alberto Gorr\'in Reyes\par
+\end{flushleft}
+
+\vfill
+% Pie inferior con a\~no o logo peque\~no
+{\small 1972 \; Universidad de Matanzas\par}
+\vspace{0.5cm}
+{\small Ciudad, \today\par}
+
+\end{titlepage}
+\end{document}
